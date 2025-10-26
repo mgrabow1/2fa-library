@@ -1,5 +1,5 @@
 {
-    "name": "2amigos/2fa-library",
+    "name": "mgrabow1/2fa-library",
     "description": "2 Factor Authentication (2FA) library",
     "type": "library",
     "keywords": [
@@ -23,8 +23,8 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/2amigos/2fa-library/issues",
-        "source": "https://github.com/2amigos/2fa-library"
+        "issues": "https://github.com/mgrabow1/2fa-library/issues",
+        "source": "https://github.com/mgrabow1/2fa-library"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
