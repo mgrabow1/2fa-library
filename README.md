@@ -4,6 +4,8 @@
 [![Latest Version](https://img.shields.io/github/tag/2amigos/2fa-library.svg?style=flat-square&label=release)](https://github.com/2amigos/2fa-library/tags)
 [![Software License](https://img.shields.io/badge/license-BSD-brightgreen.svg?style=flat-square)](LICENSE.md)
 
+**This fork uses a different QR code library** - [chillerlan/php-qrcode](https://github.com/chillerlan/php-qrcode)
+
 This library allows developers to implement Time Based One Time Passwords (TOTP) for the PHP implementation of the 
 2factor Authentication (2FA), supporting both the HMAC-based one-time password (HOTP) and the time-based one-time 
 passwords (TOTP).
