@@ -11,8 +11,6 @@
 
 namespace Da\TwoFA\Service;
 
-use Da\QrCode\Contracts\ErrorCorrectionLevelInterface;
-use Da\QrCode\QrCode;
 use Da\TwoFA\Contracts\StringGeneratorServiceInterface;
 
 class QrCodeDataUriGeneratorService implements StringGeneratorServiceInterface
@@ -43,8 +41,6 @@ class QrCodeDataUriGeneratorService implements StringGeneratorServiceInterface
      */
     public function run(): string
     {
-        return (new QrCode($this->totpSecretKeyUri, ErrorCorrectionLevelInterface::MEDIUM))
-            ->setSize((int)$this->size)
-            ->writeDataUri();
+        return (new \chillerlan\QRCode\QRCode)->render($this->totpSecretKeyUri);
     }
 }
